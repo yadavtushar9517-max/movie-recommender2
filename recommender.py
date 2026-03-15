@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-movies = pd.read_csv("movies_metadata.csv", low_memory=False)
+movies = pd.read_csv("movies.csv", low_memory=False)
 
 movies = movies[['title','overview','popularity']]
 movies = movies.dropna()
