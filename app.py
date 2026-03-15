@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from recommender import recommend, movies
 
-TMDB_API_KEY = "20ad6fa2427d097a807f4bc53fc6531c"
+TMDB_API_KEY = "TMDB_API_KEY"
 
 st.title("🎬 Movie Recommendation System")
 
